@@ -10,7 +10,7 @@
       - docker-compose
       
 - name: Run container
-  community.docker.docker_container:
+  container:
     name: wartest
     image: "{{ image }}"
     ports:
