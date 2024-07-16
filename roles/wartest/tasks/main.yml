@@ -8,7 +8,7 @@
     name:
       - docker
       - docker-compose
-
+      
 - name: Run container
   docker_container:
     name: wartest
@@ -16,4 +16,3 @@
     ports:
       - "8081:8080"
     state: started
- 
